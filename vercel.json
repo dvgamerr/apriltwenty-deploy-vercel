@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "installCommand": "npm install express",
     "builds": [
         {
             "src": "index.js",
