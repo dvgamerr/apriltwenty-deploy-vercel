@@ -8,11 +8,11 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("test deploy")
+    res.send("GET: test deploy")
 });
 
-app.get("/test", (req, res) => {
-    res.send("test in test")
+app.post("/", (req, res) => {
+    res.send("POST:> test in test")
 })
 
 module.exports = app
